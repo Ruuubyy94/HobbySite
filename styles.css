@@ -1,0 +1,38 @@
+#container{
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+color: rgb(255, 255, 255);
+font-size: medium;
+height: 100vh;
+width: 100vw;
+margin: 0;
+padding: 0;
+}
+#header{
+background-color: rgb(27, 211, 103);
+font-size: xx-large;
+height: 10vh;
+width: 100vw;
+}
+#body{
+background-color: rgb(176, 228, 108);
+height: 80vh;
+width: 80vw;
+margin: auto;
+}
+#panel1{
+background-color: rgb(104, 236, 126);
+float: left;
+width: 10vw;
+height: 80vh;
+}
+#panel2{
+background-color: rgba(129, 216, 143, 0.733);
+width: 10vw;
+height: 80vh;
+float: right;
+}
+#footer{
+background-color: rgb(78, 189, 143);
+height: 10vh;
+width: 100vw;
+}
