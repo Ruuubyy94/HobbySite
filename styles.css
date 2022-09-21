@@ -13,6 +13,9 @@ font-size: xx-large;
 height: 10vh;
 width: 100vw;
 }
+#navigation{
+background-color: rgb(208, 245, 184);
+}
 #body{
 background-color: rgb(176, 228, 108);
 height: 80vh;
