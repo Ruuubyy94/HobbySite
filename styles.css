@@ -1,27 +1,17 @@
-#button {
+.button {
   background-color: rgb(6, 77, 17);
   color: white;
   border-radius: 13px;
   width: 20vw;
   font-size: medium;
 }
-a:link {
-  color: rgb(255, 255, 255);
-  text-decoration: none;
-}
-a:visited {
-  color: greenyellow;
-  text-decoration: none;
-}
-a:hover {
-  color: rgb(180, 241, 36);
-  font-style: oblique;
-  text-decoration: none;
-}
+
 .container {
   display: flex;
   margin-top: 10vh;
   width: 100vw;
+  text-align: center;
+  justify-content: center;
 }
 .row {
   display: flex;
