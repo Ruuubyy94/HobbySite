@@ -5,7 +5,6 @@
   width: 20vw;
   font-size: medium;
 }
-
 .container {
   display: flex;
   margin-top: 10vh;
@@ -35,4 +34,17 @@
 h1 {
   text-align: center;
   text-shadow: 2px 2px greenyellow;
+}
+a:link {
+  color: rgb(6, 117, 40);
+  text-decoration: none;
+}
+a:visited {
+  color: rgb(67, 107, 6);
+  text-decoration: none;
+}
+a:hover {
+  color: rgb(179, 250, 14);
+  font-style: oblique;
+  text-decoration: none;
 }
