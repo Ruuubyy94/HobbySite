@@ -33,7 +33,7 @@
 }
 h1 {
   text-align: center;
-  text-shadow: 2px 2px greenyellow;
+  text-shadow: 2px 2px rgb(87, 194, 123);
 }
 a:link {
   color: rgb(6, 117, 40);
