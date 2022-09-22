@@ -1,66 +1,48 @@
-#container{
-font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-color: rgb(255, 255, 255);
-font-size: medium;
-height: 100vh;
-width: 100vw;
-margin: 0;
-padding: 0;
-}
-#header{
-background-color: rgb(27, 211, 103);
-font-weight: bolder;
-font-size: xxx-large;
-text-align: center;
-height: 10vh;
-width: 100vw;
-text-shadow: 1px 3px rgb(131, 133, 131);
-line-height: 1.1;
-}
-#sitedesc {
-background-color: rgb(27, 211, 103);
-height: 10vh;
-width: 100vw;
-font-size: medium
-}
-#navigation{
-background-color: rgb(208, 245, 184);
-}
-#body{
-background-color: rgb(178, 243, 176);
-height: 75vh;
-width: 90vw;
-margin-left: 10vw;
-color: black;
-}
-#panel1{
-background-color: rgb(178, 243, 176);
-float: left;
-width: 10vw;
-height: 75vh;
-}
-#footer{
-background-color: rgb(78, 189, 143);
-height: 10vh;
-width: 100vw;
-}
-#button{
-    background-color: rgb(6, 77, 17);
-    color: white;
-    border-radius: 0px 13px 13px 0px;
-    width: 10vw;
+#button {
+  background-color: rgb(6, 77, 17);
+  color: white;
+  border-radius: 13px;
+  width: 20vw;
+  font-size: medium;
 }
 a:link {
-    color: rgb(255, 255, 255);
-    text-decoration: none;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
 }
 a:visited {
-    color: greenyellow;
-    text-decoration: none;
+  color: greenyellow;
+  text-decoration: none;
 }
 a:hover {
-    color: rgb(180, 241, 36);
-    font-style: oblique;
-    text-decoration: none;
-    cursor: pointer;
+  color: rgb(180, 241, 36);
+  font-style: oblique;
+  text-decoration: none;
+}
+.container {
+  display: flex;
+  margin-top: 10vh;
+  width: 100vw;
+}
+.row {
+  display: flex;
+  background-color: aquamarine;
+}
+.col {
+  display: flex;
+  justify-content: space-around;
+}
+.blockquote {
+  font-size: medium;
+  text-shadow: none;
+  color: black;
+  text-align: center;
+}
+.blockquote-footer {
+  font-size: medium;
+  text-shadow: none;
+  text-align: center;
+}
+h1 {
+  text-align: center;
+  text-shadow: 2px 2px greenyellow;
 }
