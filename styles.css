@@ -62,4 +62,5 @@ a:hover {
     color: rgb(180, 241, 36);
     font-style: oblique;
     text-decoration: none;
+    cursor: pointer;
 }
