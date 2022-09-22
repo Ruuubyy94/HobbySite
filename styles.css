@@ -9,16 +9,26 @@ padding: 0;
 }
 #header{
 background-color: rgb(27, 211, 103);
-font-size: xx-large;
+font-weight: bolder;
+font-size: xxx-large;
+text-align: center;
 height: 10vh;
 width: 100vw;
+text-shadow: 1px 3px rgb(131, 133, 131);
+line-height: 1.1;
+}
+#sitedesc {
+background-color: rgb(27, 211, 103);
+height: 10vh;
+width: 100vw;
+font-size: medium
 }
 #navigation{
 background-color: rgb(208, 245, 184);
 }
 #body{
 background-color: rgb(178, 243, 176);
-height: 80vh;
+height: 75vh;
 width: 90vw;
 margin-left: 10vw;
 color: black;
@@ -27,7 +37,7 @@ color: black;
 background-color: rgb(178, 243, 176);
 float: left;
 width: 10vw;
-height: 80vh;
+height: 75vh;
 }
 #footer{
 background-color: rgb(78, 189, 143);
