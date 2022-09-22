@@ -1,40 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Ruby's Hobby Site</title>
-    <link rel="stylesheet" href="styles.css">
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="styles.css" />
     <style>
-    a:link {
+      a:link {
         color: rgb(255, 255, 255);
         text-decoration: none;
-    }
-    a:visited {
+      }
+      a:visited {
         color: greenyellow;
         text-decoration: none;
-    }
-    a:hover {
+      }
+      a:hover {
         color: rgb(180, 241, 36);
         font-style: oblique;
         text-decoration: none;
-    }
+      }
     </style>
-</head>
-<body>
-    <div id="container">
-        <header id="header">Ruby's Hobby Site
-            <h1 id="sitedesc">A few things I enjoy to do!</h1>
-        </header>
-        <aside id="panel1">
-            <button id="button"><a href="reading.html">Reading</a></button>
-            <button id="button"><a href="embroidery.html">Embroidery</a></button> 
-            <button id="button"><a href="bouldering.html">Bouldering</a></button>
-            <button id="button"><a href="gaming.html">Gaming</a></button>
-        </aside>
-        <main id="body">Body</main>
-        <footer id="footer">Footer</footer>
-    </div>
-</body>
+  </head>
+    <h1 class="display-1">Ruby's Hobby Site</h1>
+      <figure>
+        <blockquote class="blockquote">
+          <p>Where there is a Google, there is a way.</p>
+        </blockquote>
+        <figcaption class="blockquote-footer">
+          Someone <cite title="Source Title">Really Smart</cite>
+        </figcaption>
+      </figure>
+      <div class="col">
+        <button id="button"><a href="reading.html">Reading</a></button>
+        <button id="button">
+          <a href="embroidery.html">Embroidery</a>
+        </button>
+        <button id="button">
+          <a href="bouldering.html">Bouldering</a>
+        </button>
+        <button id="button"><a href="gaming.html">Gaming</a></button>
+      </div>
+    </header>
+  </div>
 </html>
